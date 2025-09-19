@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL || 'https://math-vis-backend-production.up.railway.app',
+    NEXT_PUBLIC_API_URL: 'https://math-vis-backend-production.up.railway.app',
   },
 };
 
